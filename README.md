@@ -1,5 +1,5 @@
 # tokenpy
-The cli application “tokenpy” returns the wallet balance across multiple EVM chains.  
+The cli application “tokenpy” returns the native asset balance across multiple EVM chains.  
 ### Currently supports chains:  
 	- Arbitrum 
 	- Optimism 

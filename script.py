@@ -32,6 +32,6 @@ def get_staked_amount(chain, address):
     staked_amount = contract.functions.balanceOf(Web3.to_checksum_address(address)).call()
     return staked_amount
 
-for chain in ['optimism','arbitrum','polygon','mantle']:
+for chain in ['optimism','arbitrum']:
     amount = get_staked_amount(chain, args.address)
     print(f"{chain.capitalize()}: {amount} tokens")

@@ -20,6 +20,7 @@ contract_abi = {
 contract_addresses = {
     'optimism':'0x4200000000000000000000000000000000000042',
     'arbitrum':'0xC4ed0A9Ea70d5bCC69f748547650d32cC219D882',
+    'mantle':'0x3c3a81e81dc49a522a592e7622a7e711c06bf354',
 }
 
 

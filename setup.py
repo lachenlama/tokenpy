@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="tokenpy",
-    version='0.1.0',
+    version='0.1.1',
     author='byte-my-code',
     author_email='lamaswaroop@gmail.com',
     description='Check your wallet balance from the cli',

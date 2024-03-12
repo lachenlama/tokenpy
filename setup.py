@@ -5,13 +5,16 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name="tokenpy",
-    version='1.0.1',
+    version='1.0.2',
     author='byte-my-code',
     author_email='lamaswaroop@gmail.com',
     description='Check your wallet balance from the cli',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/lachenlama/tokenpy',
+    project_urls={
+        'Github Repository':'https://github.com/lachenlama/tokenpy',
+    },
     packages=find_packages(),
     install_requires=[
         'argparse',

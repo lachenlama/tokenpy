@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name="tokenpy",
-    version='1.0.2',
+    version='1.0.4',
     author='byte-my-code',
     author_email='lamaswaroop@gmail.com',
     description='Check your wallet balance from the cli',
@@ -13,7 +13,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/lachenlama/tokenpy',
     project_urls={
-        'Github Repository':'https://github.com/lachenlama/tokenpy',
+        'Source':'https://github.com/lachenlama/tokenpy',
     },
     packages=find_packages(),
     install_requires=[

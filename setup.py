@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name="tokenpy",
-    version='1.0.4',
+    version='1.0.5',
     author='byte-my-code',
     author_email='lamaswaroop@gmail.com',
     description='Check your wallet balance from the cli',
